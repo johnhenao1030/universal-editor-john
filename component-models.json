@@ -214,5 +214,30 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "prueba",
+    "fields": [
+      {
+        "component": "reference",
+        "label": "Reference",
+        "name": "reference",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
   }
 ]
